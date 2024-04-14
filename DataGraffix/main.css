@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(44, 41, 61);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.banner{
+    text-align: center;
+}
+
+#banner{
+    max-height: 180px;
+    width: 100%;
+}
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  /*.navbar a:hover{
+    background-color: rgb(133, 133, 133);
+  }*/
+  
+.main{
+     background-color: rgb(255, 255, 255);
+}
+
+.main p{
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.navbar li a:hover{
+    background-color: rgb(77, 77, 77);
+}
+
+h1{
+    margin-top: 0%;
+}
+/*index.php*/
+.welcome{
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+#indexImg{
+position: absolute;
+bottom: 20%;
+right: 35%;
+}
+
+.graphs{
+    padding: 10%;
+}
+.chartBox{
+    
+    width: 70%;
+    height:70%;
+}
+
+/* Create */
+.textInput,.numberInput,.shapeInput{
+    display: inline-block;
+}
+
+li{
+    padding: 1px;
+    display: none;
+
+}
+
+
+.buttons{
+padding-left: 5px;
+}
+
+.createB{
+    display: none;
+}
+.resetB{
+    display: none;
+}
+.shapeInput{
+    display: none;
+}
+
+.about-bt{
+    text-align: center;
+    padding-bottom: 25%;
+}
+
+.about-bt p{
+    font-size: 23px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*Upload*/
+
+.upld-txt{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+#fileInput,#fileSubmit{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.shapeUpload,.buttonsUp {
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.resetButton{
+    display: none;
+}
